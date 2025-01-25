@@ -9,8 +9,8 @@ uint PRINT_COUNT = 20;
 Logger logger;
 vector<string> tokenizedQuery;
 ParsedQuery parsedQuery;
-TableCatalogue tableCatalogue;
-BufferManager bufferManager;
+TableCatalogue tableCatalogue; // keep the record of all the tables we are dealing or have loaded
+BufferManager bufferManager; // simulation of ram, ram is limited so its like a queue, each table into pages (some rows, some cols, or some rows+some cols)
 
 void doCommand()
 {

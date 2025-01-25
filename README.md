@@ -6,7 +6,7 @@ We use ```make``` to compile all the files and creste the server executable. ```
 
 ```cd``` into the SimpleRA directory
 ```
-cd SimpleRA
+cd DS-Tutorial
 ```
 ```cd``` into the soure directory (called ```src```)
 ```

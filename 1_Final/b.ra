@@ -1,0 +1,7 @@
+LOAD STUDENTS
+A <- SELECT stud_sex == 1 FROM STUDENTS
+PRINT A
+B <- SELECT stud_age > 16 FROM A
+PRINT B
+RESULT <- PROJECT stud_id, stud_age FROM B
+PRINT RESULT

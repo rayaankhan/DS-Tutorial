@@ -2,21 +2,5 @@ BufferManager::BufferManager
 ParseQuery::clear
 
 Reading New Command: 
-quit
-ParseQuery::clear
-
-Reading New Command: 
-Quit
-ParseQuery::clear
-
-Reading New Command: 
-q
-ParseQuery::clear
-
-Reading New Command: 
-Q
-ParseQuery::clear
-
-Reading New Command: 
 QUIT
 TableCatalogue::~TableCatalogue
